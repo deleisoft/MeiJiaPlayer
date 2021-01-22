@@ -98,13 +98,11 @@ location /wyy/
 没有美嘉就也就不会有这个项目，一切尽在不言中；
 ```
 
-## :alembic: 技术栈
+## 技术栈
 
 * [Go ](https://golang.org/) + [Gin](https://github.com/gin-gonic/gin)
 * [React](https://github.com/facebook/react) + [Redux](https://github.com/reduxjs/redux) + [Material-UI](https://github.com/mui-org/material-ui)
 
-## :scroll: 许可证
+## 许可证
 
 <p>此项目根据 MIT 许可证获得许可 - 有关详细信息，请参阅 <a href="#">LICENSE.md</a> 文件。</p>
-
-GPL V3
