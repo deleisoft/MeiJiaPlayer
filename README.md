@@ -22,7 +22,7 @@
   </a>
 </p>
 
-![Screenshot](https://raw.githubusercontent.com/cloudreve/docs/master/images/homepage.png)
+![Screenshot](https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/2.png)
 
 ## :sparkles: 特性
 
