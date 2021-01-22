@@ -13,11 +13,11 @@
     <img src="https://img.shields.io/travis/com/cloudreve/Cloudreve?style=flat-square"
          alt="travis">
   </a>
-  <a href="https://codecov.io/gh/cloudreve/Cloudreve"><img src="https://img.shields.io/codecov/c/github/cloudreve/Cloudreve?style=flat-square"></a>
-  <a href="https://goreportcard.com/report/github.com/cloudreve/Cloudreve">
+  <a href="#"><img src="https://img.shields.io/codecov/c/github/cloudreve/Cloudreve?style=flat-square"></a>
+  <a href="#">
       <img src="https://goreportcard.com/badge/github.com/cloudreve/Cloudreve?style=flat-square">
   </a>
-  <a href="https://github.com/cloudreve/Cloudreve/releases">
+  <a href="#">
     <img src="https://img.shields.io/github/v/release/cloudreve/Cloudreve?include_prereleases&style=flat-square">
   </a>
 </p>
