@@ -86,10 +86,15 @@ location /wyy/
 
 ```shell
 # MKOnlinePlayer
+
 本项目UI完全借鉴MKOnlinePlayer实现，在此表以崇高敬意；
+
 # Meting
+
 本项目资源地址解析完全依靠Meting类实现，万分感激；
+
 # 田中美嘉
+
 没有美嘉就也就不会有这个项目，一切尽在不言中；
 ```
 
