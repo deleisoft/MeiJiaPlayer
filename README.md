@@ -2,7 +2,7 @@
   <br>
   <a href="#" alt="logo" ><img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p1.png" width="150" style="border-radius: 58px;"/></a>
   <br>
-  ChineseMusic—MeiJia
+  MeiJiaPlayer
   <br>
 </h1>
 
