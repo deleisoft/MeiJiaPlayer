@@ -48,6 +48,7 @@
 
 ```shell
 # 以Nginx反向代理配置为例：
+
 location /kugou/
 {
     resolver 114.114.114.114;
