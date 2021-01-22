@@ -79,7 +79,7 @@ location /wyy/
 
 * <strong>Billie Thompson</strong> - <em>Initial work</em> - <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2FPurpleBooth" target="_blank">PurpleBooth</a>
 
-> GitHub [@deleisoft](https://github.com/deleisoft) &nbsp;&middot;&nbsp;
+> GitHub [@deleisoft](https://github.com/deleisoft) <br/>
 > Twitter [@tongzhongyan](https://twitter.com/tongzhongyan)
 
 ## 致谢
