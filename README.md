@@ -37,6 +37,8 @@
 
 下载完整代码包上传至PHP服务器，直接运行即可。
 
+以上为最简单的部署示例，您可以参考 [跨地区限制](#) 进行更为完善的部署。
+
 如果您需要解决音乐资源跨地区限制，请再部署您的反向代理：
 
 ```shell
@@ -44,7 +46,29 @@
 ```
 <img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/1.png">
 
-以上为最简单的部署示例，您可以参考 [文档 - 起步](https://docs.cloudreve.org/) 进行更为完善的部署。
+```shell
+# 以Nginx反向代理配置为例：
+location /kugou/
+{
+    resolver 114.114.114.114;
+    proxy_pass http://fs.ios.kugou.com/;
+    proxy_set_header Host fs.ios.kugou.com;
+}
+location /wyy/ 
+{
+    resolver 114.114.114.114;
+    set_by_lua $tou '
+    local arg = ngx.req.get_uri_args()["tou"]
+    return arg';
+    set_by_lua $url '
+    local arg = ngx.req.get_uri_args()["url"]
+    return arg';
+    proxy_pass http://$tou.music.126.net/$url;
+    proxy_set_header Host $tou.music.126.net;
+    proxy_set_header Range $http_Range;
+}
+```
+
 
 ## :gear: 构建
 
