@@ -24,7 +24,7 @@
 
 ![Screenshot](https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p2.png)
 
-## : 特性
+## 特性
 
 * 极易部署，将静态资源上传到任何PHP服务器可立即上线工作；
 * 支持检索解析网易云/酷狗/QQ音乐资源，API接口不易失效；
