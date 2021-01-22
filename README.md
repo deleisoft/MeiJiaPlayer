@@ -75,11 +75,9 @@ location /wyy/
 
 <p>我们使用 <a href="https://semver.org/lang/zh-CN/" target="_blank">https://semver.org/lang/zh-CN/</a> 进行版本控制。有关可用的版本，请:book:<a href="#">此存储库中的标记</a>。</p>
 
-#### 克隆代码
+## 作者
 
-```shell
-git clone --recurse-submodules https://github.com/cloudreve/Cloudreve.git
-```
+* <strong>Billie Thompson</strong> - <em>Initial work</em> - <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2FPurpleBooth" target="_blank">PurpleBooth</a>
 
 #### 构建静态资源
 
