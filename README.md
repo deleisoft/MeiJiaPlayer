@@ -31,6 +31,8 @@
 * 支持自定义URL回源，节约CDN流量；
 * 开放式的歌单增删改查，数据以Json保存，无需数据库；
 * 具有跨域解决地区限制的音乐流媒体播放特性；
+* 自适应UI，正如你所见到的，它从IE9+开始向上兼容；
+<img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p3.png">
 
 ## :hammer_and_wrench: 部署
 
