@@ -31,16 +31,18 @@
 * 支持自定义URL回源，节约CDN流量；
 * 开放式的歌单增删改查，数据以Json保存，无需数据库；
 * 具有跨域解决地区限制的音乐流媒体播放特性；
-* 自适应UI，正如你所见到的，它从IE9+开始向上兼容；
-<img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p3.png">
+* 自适应UI，正如所见的那样，它从IE9+向上兼容；
 
-## :hammer_and_wrench: 部署
+## 部署
 
-下载适用于您目标机器操作系统、CPU架构的主程序，直接运行即可。
+下载完整代码包上传至PHP服务器，直接运行即可。
+
+如果您需要解决音乐资源跨地区限制，请再部署您的反向代理：
 
 ```shell
-# 解压程序包
-tar -zxvf cloudreve_VERSION_OS_ARCH.tar.gz
+# 修改\plugns\Meting.php
+配置您的反向代理服务器地址
+<img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p4.png">
 
 # 赋予执行权限
 chmod +x ./cloudreve
