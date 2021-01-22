@@ -79,7 +79,10 @@ location /wyy/
 
 * <strong>Billie Thompson</strong> - <em>Initial work</em> - <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2FPurpleBooth" target="_blank">PurpleBooth</a>
 
-#### 构建静态资源
+> GitHub [@deleisoft](https://github.com/deleisoft) &nbsp;&middot;&nbsp;
+> Twitter [@tongzhongyan](https://twitter.com/tongzhongyan)
+
+## 致谢
 
 ```shell
 # 进入前端子模块
@@ -90,40 +93,6 @@ yarn install
 yarn run build
 ```
 
-#### 嵌入静态资源
-
-```shell
-# 回到项目主目录
-cd ../
-
-# 安装 statik, 用于嵌入静态资源
-go get github.com/rakyll/statik
-
-# 开始嵌入
-statik -src=assets/build/  -include=*.html,*.js,*.json,*.css,*.png,*.svg,*.ico -f
-```
-
-#### 编译项目
-
-```shell
-# 获得当前版本号、Commit
-export COMMIT_SHA=$(git rev-parse --short HEAD)
-export VERSION=$(git describe --tags)
-
-# 开始编译
-go build -a -o cloudreve -ldflags " -X 'github.com/cloudreve/Cloudreve/v3/pkg/conf.BackendVersion=$VERSION' -X 'github.com/cloudreve/Cloudreve/v3/pkg/conf.LastCommit=$COMMIT_SHA'"
-```
-
-你也可以使用项目根目录下的`build.sh`快速开始构建：
-
-```shell
-./build.sh  [-a] [-c] [-b] [-r]
-	a - 构建静态资源
-	c - 编译二进制文件
-	b - 构建前端 + 编译二进制文件
-	r - 交叉编译，构建用于release的版本
-```
-
 ## :alembic: 技术栈
 
 * [Go ](https://golang.org/) + [Gin](https://github.com/gin-gonic/gin)
@@ -131,8 +100,6 @@ go build -a -o cloudreve -ldflags " -X 'github.com/cloudreve/Cloudreve/v3/pkg/co
 
 ## :scroll: 许可证
 
-GPL V3
+<p>此项目根据 MIT 许可证获得许可 - 有关详细信息，请参阅 <a href="#">LICENSE.md</a> 文件。</p>
 
----
-> GitHub [@HFO4](https://github.com/HFO4) &nbsp;&middot;&nbsp;
-> Twitter [@abslant00](https://twitter.com/abslant00)
+GPL V3
