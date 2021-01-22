@@ -22,15 +22,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://demo.cloudreve.org">演示站</a> •
-  <a href="https://forum.cloudreve.org/">讨论社区</a> •
-  <a href="https://docs.cloudreve.org/">文档</a> •
-  <a href="https://github.com/cloudreve/Cloudreve/releases">下载</a> •
-  <a href="https://t.me/cloudreve_official">Telegram 群组</a> •
-  <a href="#scroll-许可证">许可证</a>
-</p>
-
 ![Screenshot](https://raw.githubusercontent.com/cloudreve/docs/master/images/homepage.png)
 
 ## :sparkles: 特性
