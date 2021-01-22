@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">基于PHP开发的音乐在线播放器</h4>
+<h4 align="center">基于PHP开发的轻量级音乐在线播放器</h4>
 
 <p align="center">
   <a href="https://travis-ci.com/github/cloudreve/Cloudreve/">
@@ -26,18 +26,17 @@
 
 ## 特性
 
-* 极易部署，将静态资源上传至PHP服务器可立即工作；
 * 支持检索解析网易云/酷狗/QQ音乐资源，API接口不易失效；
 * 支持自定义URL回源，节约CDN流量；
-* 开放式的歌单增删改查，数据以Json保存，无需数据库；
+* 支持歌单数据开放式存储，数据以Json保存，无需数据库；
 * 具有跨域解决地区限制的音乐流媒体播放特性；
-* 自适应UI，正如所见的那样，它从IE9+向上兼容；
+* 自适应UI，正如所见的那样，它从IE9+开始向上兼容；
 
 ## 部署
 
-下载完整代码包上传至PHP服务器，直接运行即可。
+下载完整代码包上传至PHP服务器，您已完成部署。
 
-以上为最简单的部署示例，您可以参考 [跨地区限制](#) 进行更为完善的部署。
+以上为最简单的部署示例，另外您可以参考 [跨地区限制](#) 进行更为完善的部署。
 
 解决流媒体跨地区限制，需要配合反向代理，步骤如下：
 
@@ -77,7 +76,7 @@ location /wyy/
 
 ## 作者
 
-* <strong>Yintu</strong> - <em>Initial work</em> - <a href="https://github.com/deleisoft">Deleisoft</a>
+* <strong>音土</strong> - <em>Initial work</em> - <a href="https://github.com/deleisoft">Deleisoft</a>
 
 > GitHub [@deleisoft](https://github.com/deleisoft) <br/>
 > Twitter [@tongzhongyan](https://twitter.com/tongzhongyan)
@@ -87,21 +86,16 @@ location /wyy/
 ```shell
 # MKOnlinePlayer
 
-本项目UI完全借鉴MKOnlinePlayer实现，在此表以崇高敬意；
+本项目UI完全借鉴MKOnlinePlayer实现；
 
 # Meting
 
-本项目资源地址解析完全依靠Meting类实现，万分感激；
+本项目资源地址解析完全依靠Meting类实现；
 
 # 田中美嘉
 
-没有美嘉就也就不会有这个项目，一切尽在不言中；
+感激开源社区的技术共享，因为你们，让它更加强壮；
 ```
-
-## 技术栈
-
-* [Go ](https://golang.org/) + [Gin](https://github.com/gin-gonic/gin)
-* [React](https://github.com/facebook/react) + [Redux](https://github.com/reduxjs/redux) + [Material-UI](https://github.com/mui-org/material-ui)
 
 ## 许可证
 
