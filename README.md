@@ -39,7 +39,7 @@
 
 以上为最简单的部署示例，您可以参考 [跨地区限制](#) 进行更为完善的部署。
 
-如果您需要解决音乐资源跨地区限制，请再部署您的反向代理：
+解决流媒体跨地区限制，需要配合反向代理，步骤如下：
 
 ```shell
 # 修改\plugns\Meting.php   配置您的反向代理服务器地址
@@ -47,7 +47,7 @@
 <img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/1.png">
 
 ```shell
-# 以Nginx反向代理配置为例：
+# 以Nginx反代为例：
 
 location /kugou/
 {
@@ -69,11 +69,11 @@ location /wyy/
     proxy_set_header Range $http_Range;
 }
 ```
+完成以上配置，您的流媒体将在反代服务器进行中转，至此您将不再受地区限制（取决于服务器所在地）
 
+## 版本
 
-## :gear: 构建
-
-自行构建前需要拥有 `Go >= 1.13`、`yarn`等必要依赖。
+<p>我们使用 <a href="https://semver.org/lang/zh-CN/" target="_blank">https://semver.org/lang/zh-CN/</a> 进行版本控制。有关可用的版本，请:book:<a href="#">此存储库中的标记</a>。</p>
 
 #### 克隆代码
 
