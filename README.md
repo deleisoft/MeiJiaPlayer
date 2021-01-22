@@ -2,11 +2,11 @@
   <br>
   <a href="https://cloudreve.org/" alt="logo" ><img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/player_cover.png" width="150"/></a>
   <br>
-  Cloudreve
+  ChineseMusic—MeiJia
   <br>
 </h1>
 
-<h4 align="center">支持多家云存储驱动的公有云文件系统.</h4>
+<h4 align="center">基于PHP开发的音乐在线播放器</h4>
 
 <p align="center">
   <a href="https://travis-ci.com/github/cloudreve/Cloudreve/">
