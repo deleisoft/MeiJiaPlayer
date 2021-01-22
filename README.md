@@ -40,10 +40,9 @@
 如果您需要解决音乐资源跨地区限制，请再部署您的反向代理：
 
 ```shell
-# 修改\plugns\Meting.php
-配置您的反向代理服务器地址
+# 修改\plugns\Meting.php   配置您的反向代理服务器地址
 ```
-<img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p4.png">
+<img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/1.png">
 
 以上为最简单的部署示例，您可以参考 [文档 - 起步](https://docs.cloudreve.org/) 进行更为完善的部署。
 
