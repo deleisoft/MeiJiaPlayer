@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://cloudreve.org/" alt="logo" ><img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/player_cover.png" width="150"/></a>
+  <a href="#" alt="logo" ><img src="https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p1.png" width="150" style="border-radius: 58px;"/></a>
   <br>
   ChineseMusic—MeiJia
   <br>
@@ -22,7 +22,7 @@
   </a>
 </p>
 
-![Screenshot](https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/2.png)
+![Screenshot](https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p2.png)
 
 ## :sparkles: 特性
 
