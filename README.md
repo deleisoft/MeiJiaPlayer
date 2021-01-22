@@ -24,21 +24,14 @@
 
 ![Screenshot](https://raw.githubusercontent.com/deleisoft/ChineseMusic/main/images/p2.png)
 
-## :sparkles: 特性
+## : 特性
 
-* :cloud: 支持本机、从机、七牛、阿里云 OSS、腾讯云 COS、又拍云、OneDrive (包括世纪互联版) 作为存储端
-* :outbox_tray: 上传/下载 支持客户端直传，支持下载限速
-* 💾 可对接 Aria2 离线下载
-* 📚 在线 压缩/解压缩、多文件打包下载
-* 💻 覆盖全部存储策略的 WebDAV 协议支持
-* :zap: 拖拽上传、目录上传、流式上传处理
-* :card_file_box: 文件拖拽管理
-*  :family_woman_girl_boy:   多用户、用户组
-* :link: 创建文件、目录的分享链接，可设定自动过期
-* :eye_speech_bubble: 视频、图像、音频、文本、Office 文档在线预览
-* :art: 自定义配色、黑暗模式、PWA 应用、全站单页应用
-* :rocket: All-In-One 打包，开箱即用
-* 🌈 ... ...
+* 极易部署，将静态资源上传到任何PHP服务器可立即上线工作；
+* 支持检索解析网易云/酷狗/QQ音乐资源，API接口不易失效；
+* 支持自定义URL回源，节约CDN流量；
+* 开放式的歌单增删改查，数据以Json保存，无需数据库；
+* 具有跨域解决地区限制的音乐流媒体播放特性；
+* 稳健的程序框架，几乎没有BUG；
 
 ## :hammer_and_wrench: 部署
 
