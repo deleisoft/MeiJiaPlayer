@@ -85,12 +85,12 @@ location /wyy/
 ## 致谢
 
 ```shell
-# 进入前端子模块
-cd assets
-# 安装依赖
-yarn install
-# 开始构建
-yarn run build
+# MKOnlinePlayer
+本项目UI完全借鉴MKOnlinePlayer实现，在此表以崇高敬意；
+# Meting
+本项目资源地址解析完全依靠Meting类实现，万分感激；
+# 田中美嘉
+没有美嘉就也就不会有这个项目，一切尽在不言中；
 ```
 
 ## :alembic: 技术栈
