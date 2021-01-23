@@ -26,9 +26,9 @@
 
 ## 特性
 
-* 支持检索解析网易云/酷狗/QQ音乐资源；
+* 支持解析网易云/酷狗/QQ音乐资源；
 * 支持自定义URL回源，优化CDN流量；
-* 支持歌单数据开放式存储，数据以Json保存，无需数据库；
+* 歌单数据开放式存储，数据以JSON保存，无需数据库；
 * 具有跨域解决地区限制的音乐流媒体播放特性；
 * 自适应UI，正如所见的那样，它从IE9+开始向上兼容；
 
@@ -76,7 +76,7 @@ location /wyy/
 
 ## 作者
 
-* <strong>音土</strong> - <em>Initial work</em> - <a href="https://github.com/deleisoft">Deleisoft</a>
+* <strong>Yintu</strong> - <em>Initial work</em> - <a href="https://github.com/deleisoft">Deleisoft</a>
 
 > GitHub [@deleisoft](https://github.com/deleisoft) <br/>
 > Twitter [@tongzhongyan](https://twitter.com/tongzhongyan)
@@ -86,15 +86,12 @@ location /wyy/
 ```shell
 # MKOnlinePlayer
 
-本项目UI完全借鉴MKOnlinePlayer实现；
+本项目UI借鉴MKOnlinePlayer实现；
 
 # Meting
 
 本项目资源地址解析完全依靠Meting类实现；
 
-# 美嘉
-
-感谢开源社区所有成员的无私奉献；
 ```
 
 ## 许可证
