@@ -355,7 +355,7 @@ function searchBox() {
     '       <label><input type="radio" name="source" value="netease" checked=""> 网易云</label>' + 
     '       <label><input type="radio" name="source" value="kugou"> 酷狗</label>' + 
     '       <label><input type="radio" name="source" value="tencent"> QQ(国内)</label>' + 
-    '   </div><div class="radio-tips">温馨提示：本程序仅为美嘉提供流媒体中转服务非商业项目，若您有版权主张或需要技术支援<a href="javascript:void(0);" onclick="radioTips();">点击联系</a></div>' + 
+    '   </div><div class="radio-tips">温馨提示：本程序仅为测试流媒体中转服务非商业项目，若您有版权主张或需要技术支援<a href="javascript:void(0);" onclick="radioTips();">点击联系</a></div>' + 
     '</div></form>';
     layer.open({
         type: 1,
@@ -379,7 +379,7 @@ function searchBox() {
 }
 
 function radioTips() {
-    layer.alert('您好，本程序搜索的音乐资源均来自各类音乐客户端开放接口，属于内部测试项目非商业用途，若您的版权受到侵犯，请联系我<br/><br/>WeChat：tongzhongyan 音土<br/>Email：tongzhongyan0925@gmail.com', {icon: 6,title: 'ChineseMusic - MeiJia',btn: ['好的']});
+    layer.alert('您好，本程序搜索的音乐资源均来自各类音乐客户端开放接口，属于内部测试项目非商业用途', {icon: 6,title: 'ChineseMusic - MeiJia',btn: ['好的']});
 }
 // 搜索提交
 function searchSubmit() {
